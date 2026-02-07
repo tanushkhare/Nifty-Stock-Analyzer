@@ -1,0 +1,160 @@
+Role:
+You are a senior full-stack Python developer.
+
+Platform Context:
+This project is being built on Replit, so the code must be:
+
+Fully runnable on Replit
+
+Structured properly
+
+Use Flask’s built-in development server
+
+Goal:
+Build a complete NIFTY 50 Stock Analysis Web Application using Flask, based on the Python logic provided below, and generate all source code files inside the Replit workspace.
+
+VERY IMPORTANT OUTPUT RULES (Replit Specific)
+
+🔴 Generate ALL files inside the Replit file tree
+🔴 Do NOT summarize only — actually write the code files
+🔴 Every file must contain complete, working code
+🔴 Follow the folder structure exactly
+
+Project Folder Structure (must be created exactly):
+
+nifty50-web/
+├── app.py
+├── requirements.txt
+├── core/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── indicators.py
+│   ├── scenarios.py
+│   ├── data_fetch.py
+│   └── services.py
+├── web/
+│   ├── __init__.py
+│   └── routes.py
+├── templates/
+│   ├── base.html
+│   ├── index.html
+│   ├── single_stock.html
+│   ├── multi_compare.html
+│   └── scan_results.html
+└── static/
+    ├── css/
+    │   └── styles.css
+    └── js/
+        └── main.js
+
+
+Backend Requirements (Flask + Python)
+
+Use Flask
+
+Fetch stock data using yfinance
+
+Implement indicators:
+
+RSI (14)
+
+MACD
+
+Moving Averages (20, 50)
+
+Volume & price change
+
+Implement scan scenarios:
+
+Price ↑ + Volume ↑
+
+RSI between 55–70
+
+MACD > 0
+
+Bullish crossover
+
+Keep all business logic inside core/
+
+Keep all routing inside web/routes.py
+
+Frontend Requirements
+
+Use Jinja2 templates
+
+base.html must include:
+
+Navbar
+
+Page layout
+
+Pages required:
+
+Home page
+
+Single stock analysis
+
+Multi-stock comparison
+
+Scan results
+
+Clean, responsive UI with CSS
+
+JavaScript for dynamic behavior
+
+Python Logic Usage (IMPORTANT)
+
+Reuse and adapt the given Python logic for:
+
+Data fetching
+
+Indicator calculation
+
+Scenario evaluation
+
+Do NOT move logic into routes
+
+Routes should only call service functions
+
+File-Specific Responsibilities
+
+app.py → Flask app setup + blueprint registration
+
+core/config.py → NIFTY 50 symbols & constants
+
+core/data_fetch.py → yfinance logic
+
+core/indicators.py → RSI, MACD, MA logic
+
+core/scenarios.py → Scan conditions
+
+core/services.py → Orchestrates data + indicators + scans
+
+web/routes.py → Flask routes only
+
+templates/*.html → Jinja2 templates
+
+static/css/styles.css → Styling
+
+static/js/main.js → Frontend JS
+
+Replit Compatibility Rules
+
+App must run using:
+
+python app.py
+
+
+Include requirements.txt
+
+No hard-coded local paths
+
+Add comments for clarity
+
+Final Instruction
+
+👉 Create the full project inside the Replit workspace
+👉 Write complete source code for every file
+👉 Ensure the app runs successfully on Replit
+
+Start now.
