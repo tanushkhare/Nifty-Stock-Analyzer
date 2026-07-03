@@ -27,16 +27,20 @@ AI-powered stock market analytics dashboard that provides real-time stock insigh
 - React Query
 
 ---
+## 🚀 Live Demo
 
+🌐 **Application:** https://nifty-stock-analyzer.onrender.com
+
+---
 ## 📸 Screenshots
 
 ### Dashboard
-
-> *(Add a screenshot here later)*
+![dashboard](<Screenshot 2026-07-04 040422.png>)
 
 ---
 
 ## ⚙️ Installation
+![installation](<Screenshot 2026-07-04 040448.png>)
 
 ```bash
 git clone https://github.com/tanushkhare/Nifty-Stock-Analyzer.git
@@ -70,6 +74,7 @@ shared/
 - Email alerts
 
 ---
+
 
 ## 👨‍💻 Author
 
