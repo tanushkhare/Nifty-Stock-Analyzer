@@ -35,12 +35,14 @@ AI-powered stock market analytics dashboard that provides real-time stock insigh
 ## 📸 Screenshots
 
 ### Dashboard
-![dashboard](<Screenshot 2026-07-04 040422.png>)
+
+![Dashboard](assets/dashboard.png)
 
 ---
 
 ## ⚙️ Installation
-![installation](<Screenshot 2026-07-04 040448.png>)
+
+![Installation](assets/installation.png)
 
 ```bash
 git clone https://github.com/tanushkhare/Nifty-Stock-Analyzer.git
